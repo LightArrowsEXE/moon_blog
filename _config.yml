@@ -5,7 +5,7 @@ description:        "Discussions, ramblings, and hot takes from just one guy liv
 reading_time:       false
 words_per_minute:   200
 logo:               'assets/img/avatar.png'
-background:         'assets/img/placeholder-big.jpg'
+background:         'assets/img/background.png'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
 url:                https://LightArrowsEXE.github.io/moon_blog
