@@ -1,14 +1,13 @@
 ---
 layout: page
 title: About
-date: 2019-09-04
 comments: false
 feature: assets/img/header.png
 ---
 
 <center>
     <img src="{{ site.url }}/assets/img/avatar_round.png">
-	<h2>The Occultic Loli</h2>
+	<h2>The Occultic;Loli</h2>
 </center>
 
 The creator behind this blog
@@ -32,7 +31,12 @@ from [Moon](https://github.com/TaylanTatli/Moon).
 Some parts of the pages are
 ~~shamelessly~~ stolen from [Blankaex's blog](https://github.com/blankaex/blog).
 My avatar was made by [松下ゆう](https://www.pixiv.net/member.php?id=14239),
-who just makes the cutest F/GO comics.
+who just makes
+the cutest F/GO comics.
+Favicon is done by [CHANxCO](https://www.pixiv.net/member.php?id=35693),
+and the header
+on this page
+is done by [じゃこ](https://www.pixiv.net/member.php?id=10612512).
 
 
 <div markdown="0"><a href="https://discord.gg/R22fk9S" class="btn btn-info">Join my Discord Server</a></div>
