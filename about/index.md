@@ -38,5 +38,6 @@ and the header
 on this page
 is done by [じゃこ](https://www.pixiv.net/member.php?id=10612512).
 
-
-<div markdown="0"><a href="https://discord.gg/R22fk9S" class="btn btn-info">Join my Discord Server</a></div>
+<center>
+    <div markdown="0"><a href="https://discord.gg/R22fk9S" class="btn btn-info">Join my Discord Server</a></div>
+</center>
