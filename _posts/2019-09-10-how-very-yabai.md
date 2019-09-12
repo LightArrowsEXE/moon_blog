@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "A Very Yabai Experience"
-date:   2019-09-04
+date:   2019-09-10
 excerpt: "When demons need slaying, that should be the point where you go “not good!”"
 tag:
 - Anime

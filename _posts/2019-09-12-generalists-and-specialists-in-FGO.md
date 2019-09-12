@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Generalists, Specialists, and the Ones Inbetween"
-date:   2019-09-04
+date:   2019-09-12
 excerpt: "Every Servant has their role, but when do you decide who has to fulfill what role?"
 tag:
 - Fate/Grand Order
