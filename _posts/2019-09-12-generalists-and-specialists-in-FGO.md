@@ -15,7 +15,7 @@ One of the more advanced parts of games with a lot of playable characters or cla
 
 For starters, let us properly define the terms used in this piece:
 
-**Generalists** are units that are applicable in most situations. They are useful in practically any situation, and thus will always have a place a team composition. For all intents and purposes, they fill the role of the jack of all trades, masters of none.
+**Generalists** are units that are applicable in most situations. They are useful in practically any situation, and thus will always have a place in team composition. For all intents and purposes, they fill the role of the jack of all trades, masters of none.
 
 **Specialists** are far more specific. They have roles that are very specifically designed around performing one task very well. This makes them very strong when the situations align perfectly, and thus are a bit more gimmicky than the generalists.
 
@@ -62,7 +62,7 @@ BB has a heal, debuff removal and prevention, lacks any kind of common class dis
 
 Amakusa Shirou is a very strong offensive Servant for Challenge Quests because of his gimmick: his Noble Phantasm strips all buffs from every opponent, and it does that *before* it deals damage. This means your Noble Phantasm will never be blocked. Besides that he also enjoys being part of the Ruler class, which not only has an increased attack modifier, but is also naturally tanky due to their resistance against all the common classes. As additional utility, he offers a stun and passive star generating.
 
-Depending on how you build your team, some Servants can fit both roles pretty effectively. In this situation, I'm using BB as a specialist. She is there to help keep my main offensive Servant healthy, and be a general nuisance when she has to with her stun, buying me more time to set up. Amakusa Shirou takes on a more generalist approach, but for Challenge Quests one could also argue he is more of a specialist. His ability to strip buffs from enemies is tremendously strong for quests like these where the enemies will constantly be buffing themselves. He also offers additional stall potential with his Servant-only stun, and has effectively twice the health he actualy does, making him tanky enough to live for a very long time.
+Depending on how you build your team, some Servants can fit both roles pretty effectively. In this situation, I'm using BB as a specialist. She is there to help keep my main offensive Servant healthy, and be a general nuisance when she has to with her stun, buying me more time to set up. Amakusa Shirou takes on a more generalist approach, but for Challenge Quests one could also argue he is more of a specialist. His ability to strip buffs from enemies is tremendously strong for quests like these where the enemies will constantly be buffing themselves. He also offers additional stall potential with his Servant-only stun, and has effectively twice the health he actually does, making him tanky enough to live for a very long time.
 
 Whether a certain Servant fills a generalist or a specialist role is heavily dependant on what options you have, what quest you are taking on, and how you build your team. This does, however, not mean that every Servant can fit both roles. Some simply fit well on any kind of team irregardless of the quest, and others have very specific skillsets that only allow them to work properly in certain situations.
 
