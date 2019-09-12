@@ -17,7 +17,7 @@ For starters, let us properly define the terms used in this piece:
 
 **Generalists** are units that are applicable in most situations. They are useful in practically any situation, and thus will always have a place in team composition. For all intents and purposes, they fill the role of the jack of all trades, masters of none.
 
-**Specialists** are far more specific. They have roles that are very specifically designed around performing one task very well. This makes them very strong when the situations align perfectly, and thus are a bit more gimmicky than the generalists.
+**Specialists** are far more specific. They have roles that are very specifically designed around performing one task very well. This makes them very strong when the stars align perfectly, but outside of that they get outclassed by many other options. Thus, they are a bit more gimmicky than the generalists.
 
 Now, let’s relate this to Fate/Grand Order and figure out how this plays into picking your Servants.
 
