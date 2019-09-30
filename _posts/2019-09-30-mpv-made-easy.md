@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "mpv made easy"
-date:   2019-09-12
+date:   2019-09-30
 excerpt: "aka why you should use mpv over literally anything else"
 tag:
 - Fansubbing
@@ -17,7 +17,7 @@ There are a couple things that fansubbers will preach about in regards to mpv, b
 * mpv is highly configurable, allowing you to customize it however you wish.
 * The GUI is highly minimalistic, removing a lot of bells and whistles that just confuse your average user.
 
-Now, configuring mpv is one of the reasons most people will tell you to "just use VLC". Whilst yes, VLC works right out of the box, a common misconception is that mpv does not. mpv works just as well out of the box as its alternatives do, but what makes it seem like it isn’t is because you’ll be lacking a lot of bells and whistles. These can be added back fairly simple with an `mpv.conf`. This is a configuration file where you can configure mpv to your liking.
+Now, configuring mpv is one of the reasons most people will tell you to "just use VLC". Whilst yes, VLC works right out of the box, a common misconception is that mpv does not. mpv works just as well out of the box as its alternatives do, but what makes it seem like that isn’t the case is because you’ll be lacking a lot of bells and whistles. These can be added back fairly easily with an `mpv.conf`. This is a configuration file where you can configure mpv to your liking.
 
 An example of an `mpv.conf` can be found [here](https://github.com/LightArrowsEXE/dotfiles/blob/master/mpv/.config/mpv/mpv.conf) (but don’t mindlessly copy it just yet).
 
