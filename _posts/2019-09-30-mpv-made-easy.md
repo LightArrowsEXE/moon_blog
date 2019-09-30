@@ -141,7 +141,7 @@ These are the recommended settings depending on your needs (courtesy of eXmendiC
 
 `scale` sets the scaler used for *upscaling*. There are only two scalers worth looking at here, which are `spline36` (used by default with `profile=gpu-hq`) and (`ewa_`)`lanczos`. Both have their strengths and weaknesses, so compare the two and pick which one you prefer most.
 
-`dscale` sets the scaler used for *downscaling*. The above options are still solid here, but `mitchell` also becomes useful here. `mitchell` is essentially bicubic, and the `b` and `c` values can be set with `scale-param1` and `scale-param2`.
+`dscale` sets the scaler used for *downscaling*. The above options are still solid, but `mitchell` also becomes useful here. `mitchell` is essentially bicubic, and the `b` and `c` values can be set with `scale-param1` and `scale-param2`.
 
 `cscale` sets the scaler used for *the chroma*. I recommend `sinc`.
 
@@ -173,4 +173,4 @@ You can check if your scalers work by opening up a video and pressing <kbd>shift
 <hr>
 
 
-There’s a lot of amazing stuff you can do with mpv, and this only covers the basics for your average user. We haven’t even started talking about shaders, scaling, etc! If you are interested in these, you can check out the official documentation linked above, or read [eXmendiC’s post](https://iamscum.wordpress.com/guides/videoplayback-guide/mpv-conf/.)
+There’s a lot of amazing stuff you can do with mpv, and this only covers the basics for your average user. We haven’t even started talking about shaders, scripts, etc! If you are interested in these, you can check out the official documentation linked above, or read [eXmendiC’s post](https://iamscum.wordpress.com/guides/videoplayback-guide/mpv-conf/.)
