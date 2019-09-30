@@ -46,7 +46,7 @@ There are a couple of additional settings you may want to set based on your pref
 `curser-autohide=100` will automatically hide the curser while playing a file.
 
 *My mpv.conf:*
-```json
+```
 # General
 profile=gpu-hq
 vo=gpu
@@ -72,7 +72,7 @@ Sometimes you will run into subtitles that look bad, and so you want to change t
 `sub-font-size` sets the size of the subtitles. Sane values are between 42 and 64.
 
 *My mpv.conf:*
-```json
+```
 # Subtitles
 sub-ass-override=no
 sub-font='Gandhi Sans'
@@ -98,7 +98,7 @@ These settings set priority on specific languages. This is nice if you prefer wa
 There is also a `vlang`, however there is almost never a language set for a video track. This can be safely skipped.
 
 *My mpv.conf:*
-```json
+```
 # Priority
 slang=en,eng
 alang=ja,jp,jpn,en,eng
@@ -113,7 +113,7 @@ Even taking screenshots can be optimized as much as you want.
 `screenshot-directory` allows you to set a path to a directory where every screenshot will be placed. By default this is either in the directory that mpv was started in (CMD) or the desktop (GUI).
 
 *My mpv.conf:*
-```json
+```
 # Screenshot
 screenshot-format=png
 screenshot-high-bit-depth=no
@@ -146,7 +146,7 @@ These are the recommended settings depending on your needs (courtesy of eXmendiC
 `cscale` sets the scaler used for *the chroma*. I recommend `sinc`.
 
 *My mpv.conf:*
-```json
+```
 # Resizer
 scale=ewa_lanczos
 # alternative dscale: mitchell
@@ -162,11 +162,11 @@ We won't go into too much detail about shaders here (which offer even *more* opt
 
 *My mpv.conf:*
 
-```json
+```
 glsl-shader="~~/shaders/ravu-r4.hook"
 ```
 
-You can check if your scalers work by opening up a video and pressing <kbd>shift</kbd>+<kbd>i</kbd>, and then <kbd>2</kbd>. If you've set everything up correctly, it should show them in the list. Note that some shaders will require the end resolution to be x
+You can check if your scalers work by opening up a video and pressing <kbd>shift</kbd>+<kbd>i</kbd>, and then <kbd>2</kbd>. If you've set everything up correctly, it should show them in the list. Note that some shaders will require the final resolution to be x times larger than the original resolution. 720p videos will generally serve well enough for this.
 
 {% capture images %} {{ site.url }}/assets/res/2019-09-30-mpv-made-easy/SymphoXD_scalers.png {% endcapture %} {% include gallery images=images %}
 
