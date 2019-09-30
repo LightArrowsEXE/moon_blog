@@ -170,7 +170,7 @@ You can check if your scalers work by opening up a video and pressing <kbd>shift
 
 {% capture images %} {{ site.url }}/assets/res/2019-09-30-mpv-made-easy/SymphoXD_scalers.png {% endcapture %} {% include gallery images=images %}
 
-#
+<hr>
 
 
 There's a lot of amazing stuff you can do with mpv, and this only covers the basics for your average user. We haven't even started talking about shaders, scaling, etc! If you are interested in these, you can check out the official documentation linked above, or read [eXmendiC's post](https://iamscum.wordpress.com/guides/videoplayback-guide/mpv-conf/.)
