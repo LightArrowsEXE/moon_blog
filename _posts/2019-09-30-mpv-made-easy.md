@@ -139,7 +139,7 @@ These are the recommended settings depending on your needs (courtesy of eXmendiC
 | ***Low*** | catmull_rom | catmull_rom | catmull_rom |
 | ***Very Low*** | bicubic_fast	| bicubic_fast | bicubic_fast |
 
-`scale` sets the scaler used for *upscaling*. There are only two scalers worth looking at here, which are `spline36` (used by default with `profile=gpu-hq`), (`ewa_`)`lanczos`. Both have their strengths and weaknesses, so compare the two and pick which one you prefer most.
+`scale` sets the scaler used for *upscaling*. There are only two scalers worth looking at here, which are `spline36` (used by default with `profile=gpu-hq`) and (`ewa_`)`lanczos`. Both have their strengths and weaknesses, so compare the two and pick which one you prefer most.
 
 `dscale` sets the scaler used for *downscaling*. The above options are still solid here, but `mitchell` also becomes useful here. `mitchell` is essentially bicubic, and the `b` and `c` values can be set with `scale-param1` and `scale-param2`.
 
