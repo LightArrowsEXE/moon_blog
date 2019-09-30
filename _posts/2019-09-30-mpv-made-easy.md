@@ -21,7 +21,7 @@ Now, configuring mpv is one of the reasons most people will tell you to "just us
 
 An example of an `mpv.conf` can be found [here](https://github.com/LightArrowsEXE/dotfiles/blob/master/mpv/.config/mpv/mpv.conf) (but don't mindlessly copy it just yet).
 
-This might look daunting for a beginner, but in actuality it's very simple. mpv is a commandline program at heart. When run from the commandline you can set flags, which allows you to turn specific settings on and off. A configuration file acts as a middleman in that regard. mpv will read that by default and carry over all of its settings, regardless of whether a video is run from the commandline or not.
+This might look daunting for a beginner, but in actuality it's very simple. mpv is a command-line program at heart. When run from the command-line you can set flags, which allows you to turn specific settings on and off. A configuration file acts as a middleman in that regard. mpv will read that by default and carry over all of its settings, regardless of whether a video is run from the command-line or not.
 
 # Preparing your `mpv.conf`
 You can prepare the mpv.conf in two locations.
@@ -67,7 +67,7 @@ Sometimes you will run into subtitles that look bad, and so you want to change t
 
 `sub-ass-override=yes` will always override subtitle styling. set to `no` to prevent it from doing that, which may be nice to set just in case.
 
-`sub-font` allows you to set a font. For example `sub-font='Ganshi Sans'`. You can find the name by checking Fonts on Windows.
+`sub-font` allows you to set a font. For example `sub-font='Gandhi Sans'`. You can find the name by checking Fonts on Windows.
 
 `sub-font-size` sets the size of the subtitles. Sane values are between 42 and 64.
 
@@ -158,7 +158,7 @@ cscale-radius=3
 
 There are a couple of *shaders* that allow for better overall upscaling. These will have to be downloaded separately, and can be found [here](https://github.com/bjin/mpv-prescalers/tree/master). You can pick your shader based on the above table.
 
-We won't go into too much detail about shaders here (which offer even *more* options), but the basic gist of it is that you create a directory inside your mpv directory called "shaders". You then import that shader by settings `glsl-shader`.
+We won't go into too much detail about shaders here (which offer even *more* options), but the basic gist of it is that you create a directory inside your mpv directory called "shaders". You then import that shader by setting `glsl-shader`.
 
 *My mpv.conf:*
 
