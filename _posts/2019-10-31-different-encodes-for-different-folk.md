@@ -10,7 +10,7 @@ tag:
 comments: true
 ---
 
-If you have ever dabbled in the fine arts of either translation, editing, or typesetting, you've likely come to realize that there are as many ways to handle them as there are stars in the sky. The same, perhaps surprisingly, holds true for video encoding. A common misconception I hear that kinda puts me on edge is that people always want "the best quality video", which to anyone that knows what they're doing sounds like a very dumb thing for one simple reason: "The best" is, at least to some extend, subjective.
+If you have ever dabbled in the fine arts of either translation, editing, or typesetting, you've likely come to realize that there are as many ways to handle them as there are stars in the sky. The same, perhaps surprisingly, holds true for video encoding. A common misconception I hear that kinda puts me on edge is that people always want "the best quality video", which to anyone that knows what they're doing sounds like a very dumb thing for one simple reason: "The best" is, at least to some extent, subjective.
 
 For the uninitiated, let's start with a short explanation of what video encoding entails in the fansubbing scene. The encoder takes care of the video and audio, and in some circles also generate the keyframes and maybe even do chapters. I've also seen places where the encoder is expected to mux everything by the end so that the quality control can look at the end result. They are in charge of making sure there's as few issues with the video as possible, and apply specialized filtering and encoding techniques in an attempt to obtain a reasonable file size for release. If you've ever seen a video that looks very bad, odds are high that the encoder behind it is the one to blame.
 
