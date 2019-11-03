@@ -22,7 +22,7 @@ For starters, let's get some of the lesser-known technobabble out of the way:
 ### <u>Fields</u>
 In essence, a field is every horizontal row of a frame. Every 1920x1080 frame contains 1080 *fields*. Usually you'll only talk about them in the case of frames being interleaved, blending two frames together.
 
-[Here is an example of two frames that were originally progressive, but were interlaced afterwards](https://files.catbox.moe/y3u92t.png) (by me. I'm so sorry, Illya.)
+[Here is an example of two frames that were originally progressive, but were interlaced afterwards](https://files.catbox.moe/de7d9t.png) (by me. I'm so sorry, Illya.)
 
 ### <u>Interleaving</u>
 In the context of this post, it refers to the fields from two frames being merged together into one frame.
