@@ -11,7 +11,7 @@ comments: true
 
 If you've been following the Nyaa buzz recently (at least, as of the time of this writing), you might have seen hot talk about a new show this season (which is ironically a sequel to a previous hot topic with season 1 of this show). That show is ***High Score Girl***. Now, what might people be fighting over this time? It's simple: Can an anime possibly have 60 fps content?
 
-For the uninitiated, the topic of today covers interpolation, fields, and many things you'll also find when dealing with interlacing. Hence, knowing at least a little bit about interpolation is expected here. If you need snuffing up on that, I suggest looking for other posts that explain it in more depth. For those that want a more bite-sized read on this particular topic, I suggest checking out [motbob's release on Nyaa](https://nyaa.si/view/1190356).
+For the uninitiated, the topic of today covers interpolation, fields, and many things you'll also find when dealing with interlacing. Hence, knowing at least a little bit about that is expected here. If you need snuffing up on that, I suggest looking for other posts that explain it in more depth. For those that want a more bite-sized read on this particular topic, I suggest checking out [motbob's release on Nyaa](https://nyaa.si/view/1190356).
 
 {% capture images %} {{ site.url }}/assets/res/2019-11-03-interpolation-and-fields/me_rn.png {% endcapture %} {% include gallery images=images %}
 
