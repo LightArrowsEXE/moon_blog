@@ -9,20 +9,22 @@ tag:
 comments: true
 ---
 
-If you've been following the Nyaa buzz recently (at least, as of the time of this writing), you might have seen people that don't know what they're talking about complaining about people spreading "fake 60fps anime". Now, while it's understandable that one might want to nip conspiracies like these in the bud if possible, it quickly becomes very apparent who knows what they're talking about and who doesn't when it turns out that yes; the anime actually *does* have native 60fps scenes.
+If you've been following the Nyaa buzz recently (at least, as of the time of this writing), you might have seen hot talk about a new show this season (which is ironically a sequel to a previous hot topic with season 1 of this show). That show is ***High Score Girl***. Now, what might people be fighting over this time? It's simple: Can an anime possibly have 60 fps content?
 
-For the uninitiated, the topic of today covers interpolation, fields, and why armchair encoders are the worst blight on the fansubbing scene. The show for today: ***Hi Score Girl***. For those that want a more bite-sized read, I suggest checking out [motbob's release on Nyaa](https://nyaa.si/view/1190356).
+For the uninitiated, the topic of today covers interpolation, fields, and many things you'll also find when dealing with interlacing. Hence, knowing at least a little bit about interpolation is expected here. If you need snuffing up on that, I suggest looking for other posts that explain it in more depth. For those that want a more bite-sized read on this particular topic, I suggest checking out [motbob's release on Nyaa](https://nyaa.si/view/1190356).
 
 {% capture images %} {{ site.url }}/assets/res/2019-11-03-interpolation-and-fields/me_rn.png {% endcapture %} {% include gallery images=images %}
 
-## It's dangerous to go alone, take some terminology!
+<hr>
 
 For starters, let's get some of the lesser-known technobabble out of the way:
 
 ### <u>Fields</u>
-In essence, a field is every horizontal row of a frame. Every 1920x1080 frame contains 1080 *fields*. Usually you'll only talk about them in the case of frames being interleaved, blending two frames together.
+In essence, a field is every horizontal row of a frame. Every 1920x1080 frame contains 1080 *fields* that are each 1920 pixels long. Usually you'll only talk about them in the case of frames being weaved together, like for example when dealing with interlacing.
 
-[Here is an example of two frames that were originally progressive, but were interlaced afterwards](https://files.catbox.moe/de7d9t.png) (by me. I'm so sorry, Illya.)
+{% capture images %} {{ site.url }}/assets/res/2019-11-03-interpolation-and-fields/infograph_new_to_interleaved.png {% endcapture %} {% include gallery images=images %}
+
+Here is an example of two frames that were originally progressive of which the fields were weaved together. The third frame contains essentially half the information of both frames, combined into one frame.
 
 ### <u>Interleaving</u>
 In the context of this post, it refers to the fields from two frames being merged together into one frame.
@@ -30,66 +32,42 @@ In the context of this post, it refers to the fields from two frames being merge
 ### <u>Scan Order</u>
 This dictates in what order the fields should be read.
 
-## The meat of the story
+<hr>
 
-The topic of today's post is, as you may imagine, one of those cases where we have a true 60fps video on our hands. The catch? Rather than distribute it in glorious 60p chad video, they distributed a 30i virgin video with interleaved fields. Here's an example of one of those frames:
+The topic of today's post is on a case where we have a true 60fps video on our hands. The catch? Rather than distribute it in glorious 60p chad video, they distributed a 30i virgin video with interleaved fields. If you are familiar with the way interlaced frames look, you'll be forgiven for thinking it looks like it was interlaced. You can verify if it is by simply separating the fields and checking for any new information, but usually there's no need to—how often are you going to run into something like that that *isn't* interpolated anyway? However, for *High School Girl*, that is definitely not the case.
 
-{% capture images %} {{ site.url }}/assets/res/2019-11-03-interpolation-and-fields/OP_interleaved_1.png {% endcapture %} {% include gallery images=images %}
+Give [this video](https://files.catbox.moe/esh6p8.mp4) a watch. The left frame indicates the original clip (just wish duplicated frames for showcasing), the middle clip contains an interpolated clip, and the right contains a diff. If you pause throughout the video or framestep, you'll notice that the original clip shows what appear to be interlacing artifacts on *every. Single. Frame.* There is no pattern to it, unlike with interlacing. Every frame has some form of field weaving.
 
+Now, by separating the fields and checking if every frame is unique, it quickly becomes apparent that the native framerate is 60 frames per second. This means you will either have to drop half the fields in every frame to get rid of the interlacing artifacts *or* separate every field and interpolate them back to 1080p.
 
-Your average encoder will likely immediately jump to the conclusion of "hold on a second, this looks interlaced. Time to throw a deinterlacer over it!" And while I do understand that notion and often think so myself, it is important to sometimes take a step back and try out some things beforehand.
+### Dropping the fields
 
-A simple script like this returns the following:
+The usual option to go for if you can't deinterlace something properly is to simply drop half the fields and interpolate them back up. This can be done fairly easily with *nnedi3*.
 ```py
-# Note: Shifting by 1px vertically because fields will always be 1px off from eachother due to the way they're handled
-sep = core.std.SeparateFields(src, tff=True)
-stack = lvf.stack_compare(sep[3521], sep[3522].resize.Point(src_top=1), make_diff=True, stack_vertical=True)
+drop_the_fields = core.nnedi3.nnedi3(src, field=1)
 ```
 
-{% capture images %} {{ site.url }}/assets/res/2019-11-03-interpolation-and-fields/OP_interleaved_2.png {% endcapture %} {% include gallery images=images %}
+This removes half the fields and interpolates it for you, which is pretty effective. However, the issue is that you might end up with stuttering during fluent animations or panning scenes. This will become especially apparent in scenes with a lot of motion.
 
-Notice how the two fields, once separated, show completely different information? This holds true for every frame with game content. The character animation itself is animated on the far more familiar twos (or, well, fives in this case because of the interpolation).
+### Interpolating the fields
 
-**EDIT:** After some more research, it actually appears that the foreground assets move at instances of 2-3-2-3-2-3 frames, indicating that the foreground animation is done at 24p, and every 4th frame is duplicated. Backgrounds appear to be done in 30p. Interesting stuff.
+{% capture images %} {{ site.url }}/assets/res/2019-11-03-interpolation-and-fields/infograph_interleaved_to_new.png {% endcapture %} {% include gallery images=images %}
 
-**Note:** big! Open with care!<br>
-[Link to image](https://files.catbox.moe/64d6og.png)
-
+In general, the best solution is splitting the fields and interpolating each of them. Ideally with motion estimation, which nnedi3 unfortunately does not offer. QTGMC does, though! The motion estimation helps a lot, since it keeps the frames before and after in mind when interpolating, offering a smoother playback.
 
 ```py
-def count(n, clip):
-    return core.text.Text(clip, f'Field Number: {n}')
-
-sep = core.std.SeparateFields(src, tff=True)
-sep = core.std.FrameEval(sep, partial(count, clip=sep))
-sep = core.std.AddBorders(sep, 2, 2, 2, 2) # Adding borders to make different frames clearer
-
-stacka = lvf.stack_compare(*sep[1024:1039])
-stackb = lvf.stack_compare(*sep[1039:1054])
-
-stack = lvf.stack_compare(stacka, stackb, stack_vertical=True)
+interpolate_the_fields = haf.QTGMC(src, TFF=True)
 ```
 
-From this information alone we can already surmise that yes, this is very likely native 60fps.
+[Here is an example of dropping the fields versus interpolating them.](https://files.catbox.moe/uq6giy.mp4) Note how the left clip stutter more than the middle clip. In the middle clip you can see that the frames get interpolated pretty well, allowing for smooth 60fps playback, as was originally intended.
 
-However, that alone isn't enough. Take note of how we now have double the temporal resolution at the cost of half the vertical resolution. This is where interpolation comes into play.
-
-**Note 1:** big! Open with care!<br>
-**Note 2:** Downscaled to 720p equivalents because >over 100MB images<br>
-[Link to image](https://files.catbox.moe/uip8jr.png)
-
-```py
-# This should ideally be further optimized, but I'm too lazy to do so for this example.
-interp = haf.QTGMC(src, TFF=True)
-```
-
-The frames here get interpolated pretty well, allowing for smooth 60fps playback, as was originally intended.
+<hr>
 
 After all of this hassle, you might be wondering: but why can't they just release it 60fps and get it over with? And the answer is as simple as it is boring: 60fps is not a standard for video on blu-rays or TV.
 
 Yes, web players typically *can* handle it (you need not look further than YouTube to see that), however think about it like this: Why would the studio bother making yet another master for streaming companies when they'll at best be releasing the 30i master on BDs anyway? Now, I should clarify that this is a speculative reason for why they won't do that from my part, but I wouldn't be surprised if this were the case.
 
-## Q&A Time!
+<hr>
 
 Now, for a quick Q&A session! Questions are sourced from the wonderful Nyaa.si, where some commenters are rather confused and wish to find answers to their questions, and others are dumb as bricks and think they know it all! Basically, this is the place where I make fun of people and also answer some common questions I've heard and especially seen in this recent kerfuffle:
 
