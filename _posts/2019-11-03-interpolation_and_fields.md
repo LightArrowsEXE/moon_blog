@@ -63,9 +63,19 @@ interpolate_the_fields = haf.QTGMC(src, TFF=True)
 
 <hr>
 
+So we've talked about how you should be interpolating these fields when dealing with High School Girl. But if it worked so well here, why don't we *always* do that, even with interlaced video? The answer is relatively simple. If you interpolate, you throw away half the information of a frame. With the usual interlaced video, there is no need for that. Every field you need to get the original frame back is there, just interlaced. 
+
+*High School Girl* is a very special case. Since none of the standard broadcast methods support native 60 frames per second, you can't truly get all the information required to get the original frames. That simply isn't the case for interlacing methods like 3:2 pulldown, where you can get the correct fields easily.
+
+
+
+<hr>
+
 After all of this hassle, you might be wondering: but why can't they just release it 60fps and get it over with? And the answer is as simple as it is boring: 60fps is not a standard for video on blu-rays or TV.
 
 Yes, web players typically *can* handle it (you need not look further than YouTube to see that), however think about it like this: Why would the studio bother making yet another master for streaming companies when they'll at best be releasing the 30i master on BDs anyway? Now, I should clarify that this is a speculative reason for why they won't do that from my part, but I wouldn't be surprised if this were the case.
+
+{% capture images %} {{ site.url }}/assets/res/2019-11-03-interpolation-and-fields/interlacing_explained.png {% endcapture %} {% include gallery images=images %}
 
 <hr>
 
@@ -75,7 +85,7 @@ Now, for a quick Q&A session! Questions are sourced from the wonderful Nyaa.si, 
 **A:** Because 60fps isn't natively supported on any of the ways they distribute it other than web players. Why they did it for this particular show? Beats me.
 
 **Q:** You said that the *game* scenes were all 60fps native, but does that really mean this should be encoded in 60fps?<br>
-**A:** Ideally, no—you'd encode this with a variable framerate. However, that's not really a big issue here. Multiple duplicate frames compress extremely well, and that's what happens here too. Since a lot of the interpolated fields are just duplicate frames of the previous and next farme in normal scenes, they will compress pretty well.
+**A:** Ideally, no—you'd encode this with a variable framerate. However, that's not really a big issue here. Multiple duplicate frames compress extremely well, and that's what happens here too. Since a lot of the interpolated fields are just duplicate frames of the previous and next frame in normal scenes, they will compress pretty well.
 
 **Q:** If we take subtitles from a 30 fps source, do we have to retime them for the 60fps video?<br>
 **A:** Aegisub works with timestamps, but those alone aren't enough. Snapping to keyframes should fix up most of the timing, however.
