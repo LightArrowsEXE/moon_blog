@@ -62,9 +62,8 @@ sep = core.std.SeparateFields(src, tff=True)
 sep = core.std.FrameEval(sep, partial(count, clip=sep))
 sep = core.std.AddBorders(sep, 2, 2, 2, 2) # Adding borders to make different frames clearer
 
-# This was painful and could probably be done in a way easier way
-stacka = lvf.stack_compare(sep[1024], sep[1025], sep[1026], sep[1027], sep[1028], sep[1029], sep[1030], sep[1031], sep[1032], sep[1033], sep[1034], sep[1035], sep[1036], sep[1037], sep[1038])
-stackb = lvf.stack_compare(sep[1039], sep[1040], sep[1041], sep[1042], sep[1043], sep[1044], sep[1045], sep[1046], sep[1047], sep[1048], sep[1049], sep[1050], sep[1051], sep[1052], sep[1053])
+stacka = lvf.stack_compare(*sep[1024:1039])
+stackb = lvf.stack_compare(*sep[1039:1054])
 
 stack = lvf.stack_compare(stacka, stackb, stack_vertical=True)
 ```
