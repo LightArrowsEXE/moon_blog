@@ -32,8 +32,7 @@ This dictates in what order the fields should be read.
 
 The topic of today's post is, as you may imagine, one of those cases where we have a true 60fps video on our hands. The catch? Rather than distribute it in glorious 60fps chad video, they distributed a 30fps virgin video with interleaved fields. Here's an example of one of those frames:
 
-**Note:** big! Open with care!<br>
-[Link to image](https://files.catbox.moe/64d6og.png)
+{% capture images %} {{ site.url }}assets/res/2019-11-03-interpolation-and-fields/OP_Interleaved_1.png {% endcapture %} {% include gallery images=images %}
 
 
 Your average encoder will likely immediately jump to the conclusion of "hold on a second, this looks interlaced. Time to throw a deinterlacer over it!" And while I do understand that notion and often think so myself, it is important to sometimes take a step back and try out some things beforehand.
@@ -44,14 +43,12 @@ sep = core.std.SeparateFields(src, tff=True)
 stack = lvf.stack_compare(sep[3522], sep[3523], make_diff=True)
 ```
 
-{% capture images %} {{ site.url }}/assets/res/2019-11-03-interpolation-and-fields/OP_Interleaved_2.png {% endcapture %} {% include gallery images=images %}
+{% capture images %} {{ site.url }}assets/res/2019-11-03-interpolation-and-fields/OP_Interleaved_2.png {% endcapture %} {% include gallery images=images %}
 
 Notice how the two fields, once separated, show completely different information? This holds true for every frame with game content. The character animation itself is animated on the far more familiar twos (or, well, sixes in this case because of the interpolation).
 
-
-**Note 1:** big! Open with care!<br>
-**Note 2:** Downscaled to 720p equivalents because >over 100MB images<br>
-[Link to image](https://files.catbox.moe/uip8jr.png)
+**Note:** big! Open with care!<br>
+[Link to image](https://files.catbox.moe/64d6og.png)
 
 
 ```py
@@ -73,7 +70,9 @@ From this information alone we can already surmise that yes, this is very likely
 
 However, that alone isn't enough. Take note of how we now have double the temporal resolution at the cost of half the vertical resolution. This is where interpolation comes into play.
 
-{% capture images %} {{ site.url }}/assets/res/2019-11-03-interpolation-and-fields/OP_Interleaved_4.png {% endcapture %} {% include gallery images=images %}
+**Note 1:** big! Open with care!<br>
+**Note 2:** Downscaled to 720p equivalents because >over 100MB images<br>
+[Link to image](https://files.catbox.moe/uip8jr.png)
 
 ```py
 # This should ideally be further optimized, but I'm too lazy to do so for this example.
