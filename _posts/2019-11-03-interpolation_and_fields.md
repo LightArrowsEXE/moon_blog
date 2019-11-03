@@ -67,15 +67,13 @@ So we've talked about how you should be interpolating these fields when dealing 
 
 *High School Girl* is a very special case. Since none of the standard broadcast methods support native 60 frames per second, you can't truly get all the information required to get the original frames. That simply isn't the case for interlacing methods like 3:2 pulldown, where you can get the correct fields easily.
 
-
+{% capture images %} {{ site.url }}/assets/res/2019-11-03-interpolation-and-fields/interlacing_explained.png {% endcapture %} {% include gallery images=images %}
 
 <hr>
 
 After all of this hassle, you might be wondering: but why can't they just release it 60fps and get it over with? And the answer is as simple as it is boring: 60fps is not a standard for video on blu-rays or TV.
 
 Yes, web players typically *can* handle it (you need not look further than YouTube to see that), however think about it like this: Why would the studio bother making yet another master for streaming companies when they'll at best be releasing the 30i master on BDs anyway? Now, I should clarify that this is a speculative reason for why they won't do that from my part, but I wouldn't be surprised if this were the case.
-
-{% capture images %} {{ site.url }}/assets/res/2019-11-03-interpolation-and-fields/interlacing_explained.png {% endcapture %} {% include gallery images=images %}
 
 <hr>
 
