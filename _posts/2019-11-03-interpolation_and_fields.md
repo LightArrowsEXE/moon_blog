@@ -63,7 +63,7 @@ interpolate_the_fields = haf.QTGMC(src, TFF=True)
 
 <hr>
 
-So we've talked about how you should be interpolating these fields when dealing with High School Girl. But if it worked so well here, why don't we *always* do that, even with interlaced video? The answer is relatively simple. If you interpolate, you throw away half the information of a frame and essential reinvent new detail. With the usual interlaced video, there is no need for that. Every field you need to get the original frame back is there, just interlaced.
+So we've talked about how you should be interpolating these fields when dealing with High Score Girl. But if it worked so well here, why don't we *always* do that, even with interlaced video? The answer is relatively simple. If you interpolate, you throw away half the information of a frame and essential reinvent new detail. With the usual interlaced video, there is no need for that. Every field you need to get the original frame back is there, just interlaced.
 
 *High Score Girl* is a very special case. Since none of the standard broadcast methods support native 60 frames per second, you can't truly get all the information required to get the original frames. That simply isn't the case for interlacing methods like 3:2 pulldown, where you can get the correct fields easily.
 
