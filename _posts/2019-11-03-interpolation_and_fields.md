@@ -39,8 +39,9 @@ Your average encoder will likely immediately jump to the conclusion of "hold on 
 
 A simple script like this returns the following:
 ```py
+# Note: Shifting by 1px vertically because fields will always be 1px off from eachother due to the way they're handled
 sep = core.std.SeparateFields(src, tff=True)
-stack = lvf.stack_compare(sep[3522], sep[3523], make_diff=True)
+stack = lvf.stack_compare(sep[3521], sep[3522].resize.Point(src_top=1), make_diff=True, stack_vertical=True)
 ```
 
 {% capture images %} {{ site.url }}/assets/res/2019-11-03-interpolation-and-fields/OP_interleaved_2.png {% endcapture %} {% include gallery images=images %}
