@@ -67,8 +67,8 @@ So we've talked about how you should be interpolating these fields when dealing 
 
 *High Score Girl* is a very special case. Since none of the standard broadcast methods support native 60 frames per second, you can't truly get all the information required to get the original frames. That simply isn't the case for interlacing methods like 3:2 pulldown, where you can get the correct fields easily.
 
-#### Warning: Pretty big. Click to view full image (opens new page)
-[![smol "how 2 interlace"](https://files.catbox.moe/ilcnne.png)](https://files.catbox.moe/jeod47.png)
+#### [Click here to view full image](https://files.catbox.moe/jeod47.png) (warning: big file)
+![smol "how 2 interlace"](https://files.catbox.moe/ilcnne.png)
 
 <hr>
 
