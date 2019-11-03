@@ -27,10 +27,10 @@ In essence, a field is every horizontal row of a frame. Every 1920x1080 frame co
 Here is an example of two frames that were originally progressive of which the fields were weaved together. The third frame contains essentially half the information of both frames, combined into one frame.
 
 ### <u>Interleaving</u>
-In the context of this post, it refers to the fields from two frames being merged together into one frame.
+In the context of this post, it refers to the fields from two frames being woven together into a single frame.
 
 ### <u>Scan Order</u>
-This dictates in what order the fields should be read.
+This dictates in what order the fields should be read. We won't really touch upon this here, but you can usually find this information with MediaInfo and filter accordingly.
 
 <hr>
 
