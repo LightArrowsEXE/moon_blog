@@ -48,7 +48,8 @@ stack = lvf.stack_compare(sep[3522], sep[3523], make_diff=True)
 Notice how the two fields, once separated, show completely different information? This holds true for every frame with game content. The character animation itself is animated on the far more familiar twos (or, well, sixes in this case because of the interpolation).
 
 {% capture images %} {{ site.url }}/assets/res/2019-11-03-interpolation-and-fields/OP_Interleaved_3.png {% endcapture %} {% include gallery images=images %}
-#### Note: very big! Open with care!
+#### Note 1: big! Open with care!
+#### Note 2: Downscaled to 720p equivalents because >over 100MB images
 
 ```py
 def count(n, clip):
