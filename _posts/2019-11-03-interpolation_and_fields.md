@@ -94,26 +94,11 @@ Now, for a quick Q&A session! Questions are sourced from the wonderful Nyaa.si, 
 **Q:** If they go 60fps for this show, why don't they it for other shows too?<br>
 **A:** Because 60fps isn't natively supported on any of the ways they distribute it other than web players. Why they did it for this particular show? Beats me.
 
-**Q:** Since the fields are 540p once split, does that mean the native resolution is 1920x540p too?<br>
-**A:** While understandable that someone might reach this conclusion, it should be noted that the interleaved fields in a frame are combined from two frames. This means that the original frame had a resoluton of 1920x1080, but only half the vertical rows of pixels were eventually mixed together (so a field from one frame interleaves with a field from another frame per frame, if that makes sense).
-
-**Q:** I am still skeptical because the video I saw was 900p, so it was likely re-encoded, meaning frames were likely added.<br>
-**A:** That is not a question. Get out of my studio.
-
 **Q:** You said that the *game* scenes were all 60fps native, but does that really mean this should be encoded in 60fps?<br>
 **A:** Ideally, no—you'd encode this with a variable framerate. However, that's not really a big issue here. Multiple duplicate frames compress extremely well, and that's what happens here too. Since a lot of the interpolated fields are just duplicate frames of the previous and next farme in normal scenes, they will compress pretty well.
 
-**Q:** I’ve never ever seen any difference between the two (30/60) and one compresses better with lesser filesize<br>
-**A:** While not a question either, this is something I read in a rant someone posted, and it's worth breaking up and explaining.
-1) The differences between 30 fps and 60 fps can be noticeable depending on how it was interpolated. In *High Score Girl's* case, the game scenes are very obviously 60fps, as I have demonstrated earlier in this post. You'll notice some stuttering if encoded in 30fps, which would make any gamer mad.
-2) While yes, the less frames you have, the smaller the file size, the way it's framed here is very misleading. As I mentioned in the previous **A**, duplicate frames compress extremely well. This is because of the way compression is done for video, but that's a topic for another day. If you're interested in reading up on it, I suggest you read up on how [intra-frame coding](https://en.wikipedia.org/wiki/Intra-frame_coding) works. It's an interesting read.
-3) As pointed out by a fellow commenter, just because you're blind doesn't mean everyone else is.
-
 **Q:** If we take subtitles from a 30 fps source, do we have to retime them for the 60fps video?<br>
-**A:** To be quite honest, I don't know. My gut feeling tells me "yes", but it depends on how Aegi decides when to play back a line. If it works based on timestamps, you'll be fine. If not, you're gonna be spending your evening retiming.
-
-**Q:** You're still wrong and I'd like to engage in the fisticuffs with you!<br>
-**A:** ***SQUARE UP, THOT.*** Memes aside, I can be found in the [Weeb Autism Discord Server](https://discord.gg/ZB7ZXbN), and my PMs are always open at LightArrowsEXE#0476.
+**A:** Aegisub works with timestamps, but those alone aren't enough. Snapping to keyframes should fix up most of the timing, however.
 
 <hr>
 
