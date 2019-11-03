@@ -30,7 +30,7 @@ This dictates in what order the fields should be read.
 
 ## The meat of the story
 
-The topic of today's post is, as you may imagine, one of those cases where we have a true 60fps video on our hands. The catch? Rather than distribute it in glorious 60fps chad video, they distributed a 30fps virgin video with interleaved fields. Here's an example of one of those frames:
+The topic of today's post is, as you may imagine, one of those cases where we have a true 60fps video on our hands. The catch? Rather than distribute it in glorious 60p chad video, they distributed a 30i virgin video with interleaved fields. Here's an example of one of those frames:
 
 {% capture images %} {{ site.url }}/assets/res/2019-11-03-interpolation-and-fields/OP_interleaved_1.png {% endcapture %} {% include gallery images=images %}
 
@@ -83,7 +83,7 @@ The frames here get interpolated pretty well, allowing for smooth 60fps playback
 
 After all of this hassle, you might be wondering: but why can't they just release it 60fps and get it over with? And the answer is as simple as it is boring: 60fps is not a standard for video on blu-rays or TV.
 
-Yes, web players typically *can* handle it (you need not look further than YouTube to see that), however think about it like this: Why would the studio bother making yet another master for streaming companies when they'll at best be releasing the 30fps master on BDs anyway? Now, I should clarify that this is a speculative reason for why they won't do that from my part, but I wouldn't be surprised if this were the case.
+Yes, web players typically *can* handle it (you need not look further than YouTube to see that), however think about it like this: Why would the studio bother making yet another master for streaming companies when they'll at best be releasing the 30i master on BDs anyway? Now, I should clarify that this is a speculative reason for why they won't do that from my part, but I wouldn't be surprised if this were the case.
 
 ## Q&A Time!
 
@@ -103,11 +103,11 @@ Now, for a quick Q&A session! Questions are sourced from the wonderful Nyaa.si, 
 
 **Q:** I’ve never ever seen any difference between the two (30/60) and one compresses better with lesser filesize<br>
 **A:** While not a question either, this is something I read in a rant someone posted, and it's worth breaking up and explaining.
-1) The differences between 30 and 60fps can be noticeable depending on how it was interpolated. In *High Score Girl's* case, the game scenes are very obviously 60fps, as I have demonstrated earlier in this post. You'll notice some stuttering if encoded in 30fps, which would make any gamer mad.
+1) The differences between 30 fps and 60 fps can be noticeable depending on how it was interpolated. In *High Score Girl's* case, the game scenes are very obviously 60fps, as I have demonstrated earlier in this post. You'll notice some stuttering if encoded in 30fps, which would make any gamer mad.
 2) While yes, the less frames you have, the smaller the file size, the way it's framed here is very misleading. As I mentioned in the previous **A**, duplicate frames compress extremely well. This is because of the way compression is done for video, but that's a topic for another day. If you're interested in reading up on it, I suggest you read up on how [intra-frame coding](https://en.wikipedia.org/wiki/Intra-frame_coding) works. It's an interesting read.
 3) As pointed out by a fellow commenter, just because you're blind doesn't mean everyone else is.
 
-**Q:** If we take subtitles from a 30fps source, do we have to retime them for the 60fps video?<br>
+**Q:** If we take subtitles from a 30 fps source, do we have to retime them for the 60fps video?<br>
 **A:** To be quite honest, I don't know. My gut feeling tells me "yes", but it depends on how Aegi decides when to play back a line. If it works based on timestamps, you'll be fine. If not, you're gonna be spending your evening retiming.
 
 **Q:** You're still wrong and I'd like to engage in the fisticuffs with you!<br>
