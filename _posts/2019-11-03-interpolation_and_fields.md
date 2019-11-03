@@ -45,7 +45,7 @@ stack = lvf.stack_compare(sep[3522], sep[3523], make_diff=True)
 
 {% capture images %} {{ site.url }}/assets/res/2019-11-03-interpolation-and-fields/OP_interleaved_2.png {% endcapture %} {% include gallery images=images %}
 
-Notice how the two fields, once separated, show completely different information? This holds true for every frame with game content. The character animation itself is animated on the far more familiar twos (or, well, sixes in this case because of the interpolation).
+Notice how the two fields, once separated, show completely different information? This holds true for every frame with game content. The character animation itself is animated on the far more familiar twos (or, well, fives in this case because of the interpolation).
 
 **EDIT:** After some more research, it actually appears that the foreground assets move at instances of 2-3-2-3-2-3 frames, indicating that the foreground animation is done at 24p, and every 4th frame is duplicated. Backgrounds appear to be done in 30p. Interesting stuff.
 
