@@ -34,7 +34,7 @@ This dictates in what order the fields should be read. We won't really touch upo
 
 <hr>
 
-The topic of today's post is on a case where we have a true 60fps video on our hands. The catch? Rather than distribute it in glorious 60p chad video, they distributed a 30i virgin video with interleaved fields. If you are familiar with the way interlaced frames look, you'll be forgiven for thinking it looks like it was interlaced. You can verify if it is by simply separating the fields and checking for any new information, but usually there's no need to—how often are you going to run into something like that that *isn't* interpolated anyway? However, for *High School Girl*, that is definitely not the case.
+The topic of today's post is on a case where we have a true 60fps video on our hands. The catch? Rather than distribute it in glorious 60p chad video, they distributed a 30i virgin video with interleaved fields. If you are familiar with the way interlaced frames look, you'll be forgiven for thinking it looks like it was interlaced. You can verify if it is by simply separating the fields and checking for any new information, but usually there's no need to—how often are you going to run into something like that that *isn't* interpolated anyway? However, for *High Score Girl*, that is definitely not the case.
 
 Give [this video](https://files.catbox.moe/esh6p8.mp4) a watch. The left frame indicates the original clip (just wish duplicated frames for showcasing), the middle clip contains an interpolated clip, and the right contains a diff. If you pause throughout the video or framestep, you'll notice that the original clip shows what appear to be interlacing artifacts on *every. Single. Frame.* There is no pattern to it, unlike with interlacing. Every frame has some form of field weaving.
 
@@ -63,9 +63,9 @@ interpolate_the_fields = haf.QTGMC(src, TFF=True)
 
 <hr>
 
-So we've talked about how you should be interpolating these fields when dealing with High School Girl. But if it worked so well here, why don't we *always* do that, even with interlaced video? The answer is relatively simple. If you interpolate, you throw away half the information of a frame. With the usual interlaced video, there is no need for that. Every field you need to get the original frame back is there, just interlaced. 
+So we've talked about how you should be interpolating these fields when dealing with High School Girl. But if it worked so well here, why don't we *always* do that, even with interlaced video? The answer is relatively simple. If you interpolate, you throw away half the information of a frame and essential reinvent new detail. With the usual interlaced video, there is no need for that. Every field you need to get the original frame back is there, just interlaced.
 
-*High School Girl* is a very special case. Since none of the standard broadcast methods support native 60 frames per second, you can't truly get all the information required to get the original frames. That simply isn't the case for interlacing methods like 3:2 pulldown, where you can get the correct fields easily.
+*High Score Girl* is a very special case. Since none of the standard broadcast methods support native 60 frames per second, you can't truly get all the information required to get the original frames. That simply isn't the case for interlacing methods like 3:2 pulldown, where you can get the correct fields easily.
 
 {% capture images %} {{ site.url }}/assets/res/2019-11-03-interpolation-and-fields/interlacing_explained.png {% endcapture %} {% include gallery images=images %}
 
