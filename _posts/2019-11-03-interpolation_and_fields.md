@@ -20,7 +20,7 @@ For the uninitiated, the topic of today covers interpolation, fields, and many t
 For starters, let's get some of the lesser-known technobabble out of the way:
 
 ### <u>Fields</u>
-In essence, a field is every horizontal row of a frame. Every 1920x1080 frame contains 1080 *fields* that are each 1920 pixels long. Usually you'll only talk about them in the case of frames being weaved together, like for example when dealing with interlacing.
+In essence, a field is half a frame, split into half the rows of the vertical resolution and alternating between the even or odd lines. Usually you'll only talk about them in the case of frames being weaved together, like for example when dealing with interlacing.
 
 {% capture images %} {{ site.url }}/assets/res/2019-11-03-interpolation-and-fields/infograph_new_to_interleaved.png {% endcapture %} {% include gallery images=images %}
 
