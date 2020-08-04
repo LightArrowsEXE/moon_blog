@@ -27,29 +27,32 @@ We primarily stick with British English when editing. Below is a quick overview 
 \* "-ize" is also correct in British English, but required in American English. Whichever you use, stay consistent.<br>
 \*\* "theatre" is technically also correct in American English.
 
-Regarding quotation marks, double quotation marks are to be used when quoting, and single marks used for quotes within a quote. Punctuation that is not part of the quote should remain outside the quotation marks, and the first word of a quoted sentence should always start with a capital letter, regardless of where in the sentence it starts.
+Double quotation marks are to be used when quoting, and single marks used for quotes within a quote. Punctuation that is not part of the quote should remain outside the quotation marks, and the first word of a quoted sentence should always start with a capital letter, regardless of where in the sentence it starts.
 
 * "January 10th. Lady Tamayo was ethereal and gorgeous again today."
 * What do you mean, "I don't know where they went"?!
 * And so he went all "Oh yeah, the guy said 'Just leave it all to me!' so nonchalantly!"
 
-"Alright" should always be spelled as "all right". While they can be used interchangeably, "all right" is always correct, while "alright" can be wrong in some instances.<br>
+"Alright" should always be spelled as "all right". While they can be used interchangeably sometimes, "all right" is *always* correct.<br>
 "OK", "Ok", and "ok" should always be written full-out as "okay".
 
-Concerning punctuation:
+Proper use of punctuation is *always* required. Be it periods, exclamation points, commas, semi-colons, whatever. Use whatever is most appropriate.
 
-* Proper use of punctuation is *always* required. Be it periods, exclamation points, commas, semi-colons, whatever. Use whatever is most appropriate.
-* Be careful not to spam too many commas. It's very easy to introduce a comma splice, so be careful to avoid that. That said, we're big lovers of the Oxford comma, so use it.
+* Be careful not to spam too many commas. It's very easy to introduce a comma splice, so try to avoid that. That said, we're big lovers of the Oxford comma, so use it.
 * Avoid ellipses like the plague. Oftentimes they're just annoying and unnecessary.
 * We do not make use of four-dotted ellipsis. No matter your excuse, I won't allow it.
 * No double-hyphens. When a script uses double-hyphens, replace them with em-dashes.
 
 Abbreviated titles are the only exception to the "British English" rule. We prefer them with a full stop;
 
-* "Mr." vs. "Mr"
-* "Dr." vs "Dr", etc.
+* "Mr." (vs. "Mr")
+* "Dr." (vs "Dr")
 
-Numbers are written fully whenever reasonable, and if the CPS allows for it. "Thirty six" vs. "36", "nine-hundred-ninety-one" vs "991", etc.
+Numbers are written fully whenever reasonable, and if the CPS allows for it. This does not extend to dates. Dates should also always use the British date format.
+
+* "Thirty-six" (vs. "36")
+* "nine-hundred-ninety-one" (vs "991")
+* "December 25th, 1998" (vs. "December twenty-fifth, nineteen-ninety-eight")
 
 # Dialects and Manners of Speech
 
