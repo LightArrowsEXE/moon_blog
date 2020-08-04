@@ -33,7 +33,7 @@ Regarding quotation marks, double quotation marks are to be used when quoting, a
 * What do you mean, "I don't know where they went"?!
 * And so he went all "Oh yeah, the guy said 'Just leave it all to me!' so nonchalantly!"
 
-"Alright" should always be spelled as "all right". While they can be used interchangeably, "all right" is always correct, while "alright" can be wrong in some instances.
+"Alright" should always be spelled as "all right". While they can be used interchangeably, "all right" is always correct, while "alright" can be wrong in some instances.<br>
 "OK", "Ok", and "ok" should always be written full-out as "okay".
 
 Concerning punctuation:
@@ -44,7 +44,11 @@ Concerning punctuation:
 * We do not make use of four-dotted ellipsis. No matter your excuse, I won't allow it.
 * No double-hyphens. When a script uses double-hyphens, replace them with em-dashes.
 
-Abbreviated titles are the only exception to the "British English" rule. We prefer them with a full stop; "Mr." vs. "Mr", "Dr." vs "Dr", etc.
+Abbreviated titles are the only exception to the "British English" rule. We prefer them with a full stop;
+
+* "Mr." vs. "Mr"
+* "Dr." vs "Dr", etc.
+
 Numbers are written fully whenever reasonable, and if the CPS allows for it. "Thirty six" vs. "36", "nine-hundred-ninety-one" vs "991", etc.
 
 # Dialects and Manners of Speech
