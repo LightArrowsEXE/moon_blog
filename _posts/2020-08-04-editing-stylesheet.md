@@ -20,7 +20,7 @@ We primarily stick with British English when editing. Below is a quick overview 
 * "fantasise", "apologise", "organise", "recognise"\*
 * "colour", "favour", "humour", "rumour" (vs. "color", "favor", "humor", "rumor")
 * "centre", "theatre", "metre", "calibre" (vs. "center", "theater"\*\*, "meter", "caliber")
-* "travelling", "fuelling", "cancelled", marvelling" (vs. "traveling", "fueling","canceled", "marveling")
+* "travelling", "fuelling", "cancelled", marvelling" (vs. "traveling", "fueling", "canceled", "marveling")
 * "defence", "offence", "licence", "pretence" (vs. "defense", "offense", "license", "pretense")
 * "analogue", "dialogue", "prologue", "travelogue" (vs. "analog", "dialog", "prolog", "travelog")
 
