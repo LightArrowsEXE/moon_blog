@@ -24,7 +24,7 @@ We primarily stick with British English when editing. Below is a quick overview 
 * "defence", "offence", "licence", "pretence" (vs. "defense", "offense", "license", "pretense")
 * "analogue", "dialogue", "prologue", "travelogue" (vs. "analog", "dialog", "prolog", "travelog")
 
-\* "-ize" is also correct in British English, but required in American English. Whichever you use, stay consistent.
+\* "-ize" is also correct in British English, but required in American English. Whichever you use, stay consistent.<br>
 \*\* "theatre" is technically also correct in American English.
 
 Regarding quotation marks, double quotation marks are to be used when quoting, and single marks used for quotes within a quote. Punctuation that is not part of the quote should remain outside the quotation marks, and the first word of a quoted sentence should always start with a capital letter, regardless of where in the sentence it starts.
