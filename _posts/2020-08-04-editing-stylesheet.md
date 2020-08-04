@@ -13,7 +13,7 @@ An important aspect of translation involves editing the text to make it more acc
 
 Parts of this are semi-lifted from various other editing guidelines, all of which are linked in the footnote of this post.
 
-# Basic Use of English
+## Basic Use of English
 
 We primarily stick with British English when editing. Below is a quick overview of the six most well-known differences:
 
@@ -54,7 +54,7 @@ Numbers are written fully whenever reasonable, and if the CPS allows for it. Thi
 * "nine-hundred-ninety-one" (vs "991")
 * "December 25th, 1998" (vs. "December twenty-fifth, nineteen-ninety-eight")
 
-# Dialects and Manners of Speech
+## Dialects and Manners of Speech
 
 Character speech is often informal and colloquial. This means they use contractions, often keep wording simple, etc. Make sure you render lines to sound as a natural English speaker would say them, unless a character is specifically noted to be speaking very formally and "properly". The same holds true for archaic language, as well as dialects. However, in those cases localising them might hamper editing instead. Whether to translate them or render them as "normal accents" will depend on the context.
 
@@ -68,7 +68,7 @@ For stutters, always capitalise the first letter if the stutter is at the start 
 
 The Japanese *do*, in fact, know how to swear. As such, swears should be included if it makes sense for the characters to be using them. If you have someone that's an angry ass, it's fine to make them sound like an angry ass.
 
-# Localisation vs. Literalisation
+## Localisation vs. Literalisation
 
 Literalisation is always a fun topic to explore for fansubs. That said, we are fairly strict on our policies, and you are always expected to localise within reason unless the translator specifically doesn't want some things localised. That said, the dialogue should read as smoothly as it is intended to be heard by the original Japanese viewer. This means no "It can't be helped's" (unless it can't be helped). Edit it so it flows as smooth as can be in English, i.e. "I had no choice", "It's no use", or "Shit happens". Names can be in either Western or Eastern order, so long as you make sure you're consistent. Jokes should always be rewritten to work in English while ideally also retaining the spirit of the original joke. Absolutely no TL notes should remain unless there's absolutely 100% no way around it, but that should basically never be the case.
 
@@ -86,7 +86,7 @@ Keep an eye out for wasei-eigo. It's very easy to fall into a pitfall trap when 
 
 Japanese attack names and similar cases where the original Japanese may be kept should ideally be localised whenever possible. Exceptions may include something like a Japanese character in an otherwise foreign setting, where him being Japanese gets continually played up. Use common sense.
 
-# Formatting
+## Formatting
 
 Italics are used for inner monologue and emphasis on specific words and/or phrases. Flashbacks should not be italicised unless the preceding lines before it were also clearly part of an internal monologue. If a character is clearly speaking out loud in said flashback, remove the italics. They are also not used for characters that speak off-screen through some form of long-distance communication, like phone conversations or radio messages. If the final word in a sentence is italicised, do not italicise the punctuation after it.
 
@@ -102,7 +102,7 @@ When breaking lines, if the style is not set to "No word wrapping, both \n and \
 
 Interruptions should always use em-dashes. No hyphens. If your font doesn't support em-dashes, you can change the horizontal scaling with \fscx. \fscx250 is typically good enough.
 
-# Other things of note
+## Other things of note
 
 Keeping a styleguide per show is always a great idea. You might know what words, terminology, etc. you're using while you're editing it now, but you must also think about the you in the future, as well as any quality controls that may look over your script. This can also help set up "rules" that you can reference to again at a later date. Don't underestimate how useful these are!
 
@@ -120,7 +120,7 @@ Similarly, it's a good idea to get rid of Crunchyroll's linebreaks, as they acti
 
 <hr>
 
-Every editor has a different style and rules they follow. This is simply mine, and what I expect the editors in Kaleido to uphold whenever reasonable. We could all stand to learn and improve our written English by absorbing as many different styles and, with time, developing our own. Whether or not you agree with my style, I hope this gave you some food for thought, and an insight into how I edit.
+Every editor has a different style and set of rules they follow. This is simply mine, and what I expect the editors in Kaleido to uphold whenever reasonable. We could all stand to learn and improve our written English by absorbing as many different styles and, with time, developing our own. Whether or not you agree with my style, I hope this gave you some food for thought, and an insight into how I edit.
 
 Here's a couple of useful resources and styleguides, of which I've used some as reference while writing this one. I guess I'll keep that updated as I find more stuff.
 
