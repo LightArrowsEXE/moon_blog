@@ -116,6 +116,8 @@ Interruptions should always use em-dashes. No hyphens. If your font doesn't supp
 
 Keeping a styleguide per show is always a great idea. You might know what words, terminology, etc. you're using while you're editing it now, but you must also think about the you in the future, as well as anyone performing quality control over your script. This can also help set up "rules" that you can reference to again at a later date. Don't underestimate how useful these are!
 
+You should recognise what exactly you're editing. If you're reading this, you're probably an anime fansub editor. This means you've got far more limits than you do with, say, light novels. Know the limits of translating the medium, but don't be daunted by them. It being an anime shouldn't become an excuse to churn out poor scripts, but rather an opportunity to test yourself and overcome the limitations it presents or make full use of its strengths.
+
 Keep the characters-per-second in mind. The redder the number is, the harder it tends to be to read. Safe values typically range from 11 to 15 CPS, but readability can be good enough at higher CPS's depending on linebreaks and words used. Rule of thumb should be to split the line so all the text is more centred if the CPS is roughly 18 or higher, and if the line is long enough to do so.
 
 {% capture images %} {{ site.url }}/assets/res/2020-08-04-editing-stylesheet/cps_showcase.png {% endcapture %} {% include gallery images=images %}
