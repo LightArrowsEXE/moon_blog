@@ -51,7 +51,7 @@ Abbreviated titles are the only exception to the "British English always" rule. 
 * "Mr." (vs. "Mr")
 * "Dr." (vs. "Dr")
 
-Keep the difference between "Ms.", "Miss", and "Mrs." in mind. "Miss" is a respectful way to refer to an unmaried woman, "Mrs." is for married or widowed women, and "Ms." is for when you're unsure, and generally the safest bet. If a character is often the butt of a joke concerning marriage/dating, you should probably be using "Miss" rather than "Ms.". Naturally, if it becomes a revelation to a character later, rather than something they already knew, keep "Ms./Miss" until said revelation, after which you should swap over to "Mrs."
+Keep the difference between "Ms.", "Miss", and "Mrs." in mind. "Miss" is a respectful way to refer to an unmaried woman, "Mrs." is for married or widowed women, and "Ms." is for when you're unsure, and generally the safest bet. If a character is often the butt of a joke concerning marriage/dating, you should probably be using "Miss" rather than "Ms.". If it's unknown to some characters that another woman is married, use "Ms." and switch over to "Mrs." when they learn of it.
 
 Numbers are written fully whenever reasonable, and if the CPS allows for it. This does not extend to dates.<br>
 Dates should also always use the British date format.
