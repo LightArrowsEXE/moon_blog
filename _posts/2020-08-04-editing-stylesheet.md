@@ -51,21 +51,21 @@ Abbreviated titles are the only exception to the "British English always" rule. 
 * "Mr." (vs. "Mr")
 * "Dr." (vs. "Dr")
 
-Keep the difference between "Ms.", "Miss", and "Mrs." in mind. "Miss" is a respectful way to refer to an unmaried woman, "Mrs." is for married or widowed women, and "Ms." is for when you're unsure, and generally the safest bet. If a character is often the butt of a joke concerning marriage/dating, you should probably be using "Miss" rather than "Ms.".
+Keep the difference between "Ms.", "Miss", and "Mrs." in mind. "Miss" is a respectful way to refer to an unmaried woman, "Mrs." is for married or widowed women, and "Ms." is for when you're unsure, and generally the safest bet. If a character is often the butt of a joke concerning marriage/dating, you should probably be using "Miss" rather than "Ms.". Naturally, if it becomes a revelation to a character later, rather than something they already knew, keep "Ms./Miss" until said revelation, after which you should swap over to "Mrs."
 
 Numbers are written fully whenever reasonable, and if the CPS allows for it. This does not extend to dates.<br>
 Dates should also always use the British date format.
 
 * "Thirty-six" (vs. "36")
 * "Nine-hundred-ninety-one" (vs. "991")
-* "Misaka 9982" (vs. "Misaka nine-thousand-nine-hundred-eighty-two")
+* "Stop right there, Misaka 9982!" (vs. "Stop right there, Misaka nine-thousand-nine-hundred-eighty-two!")
 * "December 25th, 1998" (vs. "December twenty-fifth, nineteen-ninety-eight")
 
 ## Dialects and Manners of Speech
 
 Character speech is often informal and colloquial. This means they use contractions, often keep wording simple, etc. Make sure you render lines to sound as a natural English speaker would say them, unless a character is specifically noted to be speaking very formally and "properly", or different in general. The same holds true for archaic language, as well as dialects. However, in those cases localising them might hamper editing instead. Whether to translate them or render them as "normal accents" will depend on the context and how confident you are doing so.
 
-Occasionally you will have characters making "hesitating noises". For example, "Uh...", "Ah...", "Uhm..." or stutters. These can often be omitted, but sometimes it may be preferable to keep them. No matter what you do, it's a good idea to let your timer know, or if you can time yourself, to retime the lines to make sure it also includes those noises.
+Occasionally you will have characters making "hesitating noises". For example, "Uh...", "Ah...", "Uhm..." or stutters. These can often be omitted, but sometimes it may be preferable to keep them. No matter what you do, it's a good idea to let your timer know, or if you can time yourself, to retime the lines to make sure it also includes these noises.
 
 For stutters, always capitalise the first letter if the stutter is at the start of the sentence, and make sure you repeat the initial sound. In practise this basically means you only ever end up repeating an additional "h" if present.
 
@@ -114,7 +114,7 @@ Interruptions should always use em-dashes. No hyphens. If your font doesn't supp
 
 ## Other things of note
 
-Keeping a styleguide per show is always a great idea. You might know what words, terminology, etc. you're using while you're editing it now, but you must also think about the you in the future, as well as anyone peforming quality control over your script. This can also help set up "rules" that you can reference to again at a later date. Don't underestimate how useful these are!
+Keeping a styleguide per show is always a great idea. You might know what words, terminology, etc. you're using while you're editing it now, but you must also think about the you in the future, as well as anyone performing quality control over your script. This can also help set up "rules" that you can reference to again at a later date. Don't underestimate how useful these are!
 
 Keep the characters-per-second in mind. The redder the number is, the harder it tends to be to read. Safe values typically range from 11 to 15 CPS, but readability can be good enough at higher CPS's depending on linebreaks and words used. Rule of thumb should be to split the line so all the text is more centred if the CPS is roughly 18 or higher, and if the line is long enough to do so.
 
