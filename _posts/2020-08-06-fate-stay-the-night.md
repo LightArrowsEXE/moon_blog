@@ -55,7 +55,7 @@ The Anime Route branches out into two sub-routes:
     2) [Fate/stay night: Heaven's Feel (ufotable anime adaptation)][fsn_anime_hf]<br>
     2.5) [Fate/Hollow Ataraxia's visual novel][fha_vn]<br>
     3) [Fate/Zero (ufotable anime adaptation)][fz_anime]<br>
-* The """Full""" Experience<br>
+* The “““Full””” Experience<br>
     1) [Fate/stay night (Deen anime adaptation)][fsn_anime_06]<br>
     2) [Fate/stay night: Unlimited Blade Works (ufotable anime adaptation)][fsn_anime_ubw]<br>
     3) [Fate/stay night: Heaven's Feel (ufotable anime adaptation)][fsn_anime_hf]<br>
@@ -88,10 +88,10 @@ These are the three main orders to go in. Personally, my recommendation would al
 
 No matter which order you're going with, these are the releases I would recommend for viewing:
 
-**Fate/stay night: Unlimited Blade Works:**
+**Fate/stay night: Unlimited Blade Works:**<br>
 Either Aomundsen if you're on AnimeBytes, or [Kametsu][nyaa_fsn_ubw] if you're only on public trackers.
 
-**Fate/stay night: Heaven's Feel:**
+**Fate/stay night: Heaven's Feel:**<br>
 [daraku][nyaa_fsn_hf_daraku] for the first movie. There are no good subs for the second movie yet at the time of writing, and the third movie hasn't come out yet. I'd recommend [SCY][nyaa_fsn_hf_scy] once he finds a translator that's willing to do an original translation, otherwise I'd say you should sit out until there's good subs (avoid the official subs like the plague).
 
 **Fate/Zero:**<br>
