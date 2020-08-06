@@ -82,7 +82,7 @@ This is an alternative method of viewing the anime. While the previous order sti
 
 With this order, you'll be watching the main Fate series in chronological order. Fate/Zero covers the Fourth Holy Grail War, the war fought before the one in Fate/stay night. Now, this is not a route I would recommend, and the reason is simple: Fate/stay night and Fate/Zero spoil each other. Fate/stay night spoils parts of the finale (and mostly the finale only), but Fate/Zero spoils large parts of every single Fate/stay night route, *especially* Heaven's Feel. That said, if you really hate being in the dark about topics and revelations that get eluded to later in the time line, it's not the absolute worst way to go. I would still skip the Deen anime no matter what, though.
 
-#### Fate/Route Resolution
+## Fate/Route Resolution
 
 These are the three main orders to go in. Personally, my recommendation would always be to go with the source material if you want to enter Fate. Not only will it help condition you for the other Fate entries (as not everything has gotten an anime adaptation, and I really hope it stays that way, personally), but in my opinion the anime adaptations (bar Fate/Zero's) do a tremendously poor job of getting across Fate/stay night's true strength: its themes of heroism and what it means to revel in it or discard it. The anime does my boy Shirou pretty dirty, as [this][shirou_yt] video does a fairly good job of explaining (be aware, it spoils fairly heavily). If you still really want to not touch anything except for anime, I would recommend going with the second order. In my honest opinion, you lose out on a lot more hype by watching it in the chronological order, so I wouldn't recommend going that way.
 
@@ -92,26 +92,28 @@ No matter which order you're going with, these are the releases I would recommen
 Either Aomundsen if you're on AnimeBytes, or [Kametsu][nyaa_fsn_ubw] if you're only on public trackers.
 
 **Fate/stay night: Heaven's Feel:**
-[daraku][nyaa_fsn_hf_daraku] for the first movie. There are no good subs for the second movie yet at the time of this writing, and the third movie hasn't come out yet. I'd recommend [SCY][nyaa_fsn_hf_scy] once he finds a translator that's willing to do an original translation, otherwise I'd say you should sit out until there's good subs (avoid the official subs like the plague).
+[daraku][nyaa_fsn_hf_daraku] for the first movie. There are no good subs for the second movie yet at the time of writing, and the third movie hasn't come out yet. I'd recommend [SCY][nyaa_fsn_hf_scy] once he finds a translator that's willing to do an original translation, otherwise I'd say you should sit out until there's good subs (avoid the official subs like the plague).
 
-**Fate/Zero:**
+**Fate/Zero:**<br>
 [SCY's release][nyaa_fz], hands down.
 
-**Fate/stay night (2006):**
+**Fate/stay night (2006):**<br>
 [THORA][nyaa_fsn_06]. This show doesn't really have any good releases either, and that's probably never gonna change.
 
-**Fate/stay night (visual novel):**
+**Fate/stay night (visual novel):**<br>
 [This][nyaa_fsn_vn] anonymous release of Réalta Nua, pre-patched. The existing translations aren't particularly amazing, but servicable.
 
-**Fate/hollow ataraxia (visual novel):**
+**Fate/hollow ataraxia (visual novel):**<br>
 [supereImo's release][nyaa_fha_vn]. The state of this translation is much worse than Fate/stay night's, but again, it's servicable. I hope both get a great translation one day, though.
 
-**Fate/Zero (light novel):**
+**Fate/Zero (light novel):**<br>
 [meep's release][nyaa_fz_ln]. Sources are, unfortunately, unknown.
 
 ## Fate/wait, there's more...?
 
 After you've watched the Main Fate series, basically every other Fate work is open to you. There is no real order to watch these in (outside of orders specifically tied to every entry), so you can enjoy them however you want. A few quick recommendations from me would be to check out Fate/Grand Order (mobage), Fate/EXTRA (game), Fate/kaleid liner Prisma☆Illya (Anime/Manga), and Fate/strange fake (Light Novel). Anything is open to you, so no matter what you choose to watch, I hope you enjoy it.
+
+Also here's an obligatory *"now that wasn't so hard, was it?"*
 
 [//]: # (Main Fate links)
 [fha_vn]: https://vndb.org/v50
