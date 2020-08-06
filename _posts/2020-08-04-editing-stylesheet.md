@@ -11,7 +11,8 @@ comments: true
 
 An important aspect of translation involves editing the text to make it more accessible to those who speak the target language. This may involve various changes from localisation, rewriting jokes, or making dialogue come across more naturally. These guidelines are what we (and with that I mean "I") use when editing under Kaleido-subs. They are by no means a be-all, end-all set of rules, but will hopefully function well as a base for aspiring editors, as well as prove useful to quality control to ensure our subtitles meet a consistent editing standard.
 
-Parts of this are semi-lifted from various other editing guidelines, all of which are linked in the footnote of this post.
+Before we start, however, it's very important to note one thing: Depending on the project you work on, you may have to flip some rules on its head. Not every project is going to play out the same way and require the same kind of attention. Sometimes you *do* want specific pieces of dialogue to sound stilted or otherwise boring, or for far more literal translations to persevere over liberal ones. Sometimes you barely need to change anything at all! Don't be inflexible and perfectly adhere to a set of rules if the project requires you to change things up.
+
 
 ## Basic Use of English
 
