@@ -40,8 +40,8 @@ The biggest issue I often find when listening to people's recommendations is tha
 
 The OG route involves reading the source material in order of release, as it was intended to be read.
 
-1) [Fate/stay night visual novel][fsn_vn]
-2) [Fate/Hollow Ataraxia's visual novel][fha_vn]
+1) [Fate/stay night visual novel][fsn_vn]<br>
+2) [Fate/Hollow Ataraxia's visual novel][fha_vn]<br>
 3) [Fate/Zero's light novel][fz_ln]/[anime][fz_anime]
 
 It's often encouraged to watch ufotable's fantastic anime adaptation of Fate/Zero over reading it, but I would suggest reading the final few chapters of the Light Novel after to catch a few scenes the anime skipped.
@@ -50,16 +50,16 @@ It's often encouraged to watch ufotable's fantastic anime adaptation of Fate/Zer
 
 The Anime Route branches out into two sub-routes:
 
-* The ufotable Experience
-    1) [Fate/stay night: Unlimited Blade Works (ufotable anime adaptation)][fsn_anime_ubw]
+* The ufotable Experience<br>
+    1) [Fate/stay night: Unlimited Blade Works (ufotable anime adaptation)][fsn_anime_ubw]<br>
     2) [Fate/stay night: Heaven's Feel (ufotable anime adaptation)][fsn_anime_hf]<br>
-    2.5) [Fate/Hollow Ataraxia's visual novel][fha_vn]
-    3) [Fate/Zero (ufotable anime adaptation)][fz_anime]
-* The """Full""" Experience
-    1) [Fate/stay night (Deen anime adaptation)][fsn_anime_06]
-    2) [Fate/stay night: Unlimited Blade Works (ufotable anime adaptation)][fsn_anime_ubw]
+    2.5) [Fate/Hollow Ataraxia's visual novel][fha_vn]<br>
+    3) [Fate/Zero (ufotable anime adaptation)][fz_anime]<br>
+* The """Full""" Experience<br>
+    1) [Fate/stay night (Deen anime adaptation)][fsn_anime_06]<br>
+    2) [Fate/stay night: Unlimited Blade Works (ufotable anime adaptation)][fsn_anime_ubw]<br>
     3) [Fate/stay night: Heaven's Feel (ufotable anime adaptation)][fsn_anime_hf]<br>
-    3.5) [Fate/Hollow Ataraxia's visual novel][fha_vn]
+    3.5) [Fate/Hollow Ataraxia's visual novel][fha_vn]<br>
     4) [Fate/Zero (ufotable anime adaptation)][fz_anime]
 
 The important distinction between these two orders is that the "full" experience includes the 2006 Fate/stay night adaptation by studio Deen, whereas the ufotable experience does not.
@@ -74,9 +74,9 @@ If you're an aspiring anime-only, I would definitely recommend just sticking to 
 
 This is an alternative method of viewing the anime. While the previous order still follows the original order that the source material was released in, this route instead follows the chronological order of events in the series itself:
 
-1) [Fate/Zero (ufotable anime adaptation)][fz_anime]
-2) [Fate/stay night (Deen anime adaptation)][fsn_anime_06]
-3) [Fate/stay night: Unlimited Blade Works (ufotable anime adaptation)][fsn_anime_ubw]
+1) [Fate/Zero (ufotable anime adaptation)][fz_anime]<br>
+2) [Fate/stay night (Deen anime adaptation)][fsn_anime_06]<br>
+3) [Fate/stay night: Unlimited Blade Works (ufotable anime adaptation)][fsn_anime_ubw]<br>
 4) [Fate/stay night: Heaven's Feel (ufotable anime adaptation)][fsn_anime_hf]<br>
 4.5) [Fate/Hollow Ataraxia's visual novel][fha_vn]
 
