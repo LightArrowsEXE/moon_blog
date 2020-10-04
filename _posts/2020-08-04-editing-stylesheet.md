@@ -60,7 +60,7 @@ Dates should also always use the British date format.
 * "Thirty-six" (vs. "36")
 * "Nine-hundred-ninety-one" (vs. "991")
 * "Stop right there, Misaka 9982!" (vs. "Stop right there, Misaka nine-thousand-nine-hundred-eighty-two!")
-* "December 25th, 1998" (vs. "December twenty-fifth, nineteen-ninety-eight")
+* "The 25th of December, 1998" (vs. "The twenty-fifth of December, nineteen-ninety-eight")
 
 ## Dialects and Manners of Speech
 
