@@ -47,7 +47,7 @@ Proper use of punctuation is *always* required. Be it periods, exclamation point
 * Interrobangs are always written out as "?!". No "!?'s".
 * No brackets unless you're feeling particularly memey.
 
-Abbreviated titles are the only exception to the "British English always" rule. We prefer them with a full stop;
+Abbreviated titles are the only exception to the "British English always" rule. We prefer them with a period;
 
 * "Mr." (vs. "Mr")
 * "Dr." (vs. "Dr")
