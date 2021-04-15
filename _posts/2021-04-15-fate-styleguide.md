@@ -2,7 +2,7 @@
 layout: post
 title:  "The Kaleido Fate/Styleguide"
 date:   2021-04-15
-excerpt: "Our general styleguide for editing all our Fate entries"
+excerpt: "Our styleguide for the Nasuverse franchise"
 tag:
 - Anime
 - Fansubbing
