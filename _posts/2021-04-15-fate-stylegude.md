@@ -16,7 +16,7 @@ This is the Kaleido styleguide for editing and localizing the Fate franchise. Th
 
 Furthermore, any other party is free to make use of this styleguide for their own releases. The sooner we all use a solid base, the better it will be for all anime viewers. Contributions/discussion can take place in the Kaleido Discord (link found on the official site), or in the Issues of this blog's GitHub repository.
 
-This styleguide will continually be updated as we work on more Fate entries and adjustments need to be made, or new terminology/character voices added, and as such is by no means complete as it is right now. If you run into a keyword or rule that is absent from this styleguide, it is up to your own judgment to decide what call to make. Channels are always open for discussion.
+This styleguide will be continually updated as we work on more Fate entries and revisions need to be made or new terminology/character voices are added, and as such is by no means complete. If you run into a keyword or rule that is absent from this styleguide, it is up to your own judgment to decide what call to make. Channels are always open for discussion.
 
 ## Basic English
 
