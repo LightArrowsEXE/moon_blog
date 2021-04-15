@@ -12,9 +12,9 @@ comments: true
 
 *This styleguide was last updated on 15/04/2021.*
 
-This is the Kaleido styleguide for editing and localising the Fate franchise. This is the document we refer to internally while working on Nasuverse titles as a whole, and is not actually limited to Fate/stay night and its many sequels, prequels, spin-offs, or adaptations, even if only "Fate" is mentioned. These are also not intended to be hard rules, and translators and editors are free to discard certain "rules" if they deem it in the best interest of the end result to do so.
+This is the Kaleido styleguide for editing and localizing the Fate franchise. This is the document we refer to internally while working on Nasuverse titles as a whole, and is not actually limited to Fate/stay night and its many sequels, prequels, spin-offs, or adaptations, even if only "Fate" is mentioned. These are also not intended to be hard rules, and translators and editors are free to discard certain "rules" if they deem it in the best interest of the end result to do so.
 
-Furthermore, any other party is free to make use of this styleguide for their own releases. The sooner we can all wind up using a solid base, the better it will be for all anime viewers. Contributions/discussion can take place in the Kaleido Discord (link found on the official site), or in the Issues of this blog's GitHub repository.
+Furthermore, any other party is free to make use of this styleguide for their own releases. The sooner we all use a solid base, the better it will be for all anime viewers. Contributions/discussion can take place in the Kaleido Discord (link found on the official site), or in the Issues of this blog's GitHub repository.
 
 This styleguide will continually be updated as we work on more Fate entries and adjustments need to be made, or new terminology/character voices added, and as such is by no means complete as it is right now. If you run into a keyword or rule that is absent from this styleguide, it is up to your own judgment to decide what call to make. Channels are always open for discussion.
 
