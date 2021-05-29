@@ -39,5 +39,5 @@ on this page
 is done by [じゃこ](https://www.pixiv.net/member.php?id=10612512).
 
 <center>
-    <div markdown="0"><a href="https://discord.gg/R22fk9S" class="btn btn-info">Join my Discord Server</a></div>
+    <div markdown="0"><a href="https://discord.gg/dk7aadV" class="btn btn-info">Join the Kaleido Discord Server</a></div>
 </center>
